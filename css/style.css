@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Hero Section Css Part */
+.hero {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.hero .container{
+    flex-basis: 70%;
+    text-align: center;
+}
+.hero .container .hero_title{
+    color: #5f6979;
+    font-weight: 400;
+    font-family: "goldenbook";
+    font-style: normal;
+    font-size: 32px;
+    line-height: normal;
+    letter-spacing: 5px;
+    padding-bottom: 40px;
+}
+.hero .container p{
+    font-family: "Goldenbook";
+    color: #444e5a ;
+    font-size: 21px;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+    line-height: 1.45;
+    padding-bottom: 20px;
+}
+/* Hero Section Css Part */
+
+
+
+
+
+
+
+
+/* Services Options CSS PART */
+.services_options{
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.services_options .container{
+    min-width:90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+.services_options .container .option_box{
+    padding: 10px 0px 60px;
+    flex-basis: 25%;
+}
+.services_options .container .option_box .service_title{
+   font-family: "goldenbook"; 
+   font-size: 16px;
+   font-weight: 400;
+   font-style: normal;
+   color: #444e5a;
+   letter-spacing: 2px;
+    text-align: center;
+}
+.services_options hr{
+    border: 0;
+    width: 100%;
+    border-top: 2px solid #ddd;
+}
+/* Services Options CSS PART */
+
+
+/* Our Details Section CSS Part */
+.details_action{
+    padding: 0 0 40px;
+    display: flex;
+    justify-content: center;
+}
+.details_action .container{
+    padding: 0 00px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+.details_action .container .call_block{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 5%;
+   
+}
+.details_action .container .call_block:hover{   transition: all 0.6s;
+    background-color: #fcfc6510;
+    box-shadow: 1px 1px 10px 1px #eddede;;
+}
+
+.details_action .container .call_block .title{
+    flex-basis: 50%;
+    color: #5f6979;
+    font-weight: 400;
+    font-family: "goldenbook";
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1.65;
+}
+.details_action .container .call_block .details_card{
+   flex-basis: 50%;
+   text-align: center;
+   padding: 0 15px;
+}
+.details_action .container .call_block .details_card p{
+    font-size: 20px;
+    line-height: 1.50;
+    font-weight: 400;
+    color: #444e5a;
+    font-family: "goldenbook";
+    font-weight: normal;
+    margin-bottom: 22px;
+}
+.details_action .container .call_block .details_card .details_btn{
+    margin-top: 25px;
+    
+}
+.details_action .container .call_block .details_card .details_btn a{
+    width: 50%;
+    margin: auto;
+    font-family: "goldenbook";
+    font-size: 18px;
+    line-height: 1.65;
+    font-weight: 400;
+    color: #5f6979;
+    text-decoration: none;
+    display: block;
+    padding: 12px 0px;
+    border: 1px solid #5f6979;
+    border-radius: 2px;
+    background-color: #fff;
+}
+.details_action .container .call_block .details_card .details_btn a:hover{
+    background-color: #5f6979;
+    color: #fff;
+    transition: all 0.4s;
+}
+/* Our Details Section CSS Part */
+
+
+
+
+
+/* Responsive Zone */
+/* Responsive Zone */
+@media (max-width:768px) {
+    .services_options .container {
+        min-width: 80%;
+    }
+    .hero .container p {
+        font-size: 19px;
+    }
+    .services_options .container .option_box .service_title {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+    }
+
+
+
+
+    .details_action .container .call_block .title {
+        flex-basis: 30%;
+        font-size: 22px;
+    }
+    .details_action .container .call_block .details_card {
+        flex-basis: 60%;
+    }
+    .details_action .container .call_block .details_card p {
+        font-size: 18px;
+    }
+    .details_action .container .call_block .details_card .details_btn a {
+        width: 70%;
+        padding: 10px 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:425px) {
+    .hero .container {
+        flex-basis: 80%;
+    }
+
+
+    .services_options .container .option_box {
+        flex-basis: 50%;
+        text-align: center;
+    }
+
+
+    
+    .details_action .container .call_block .title {
+        padding-bottom: 15px;
+    }
+    .details_action .container .call_block {
+        text-align: center;
+        flex-direction: column;
+    }
+}
+/* Responsive Zone */
